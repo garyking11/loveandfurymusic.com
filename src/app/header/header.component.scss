@@ -1,0 +1,41 @@
+
+body {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.header-wrapper {
+  width: 100%;
+  background: #efefef;
+  width: 100%;
+  z-index: 1000;
+  height: 180px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin:0 auto;
+  min-height:50px;
+
+}
+
+nav {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  
+  background-color: transparent;
+  a {
+    color: #333;
+  }
+}
