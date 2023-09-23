@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  public lafEmail = 'loveandfuryband@gmail.com';
   constructor() { }
 
-  ngOnInit() {
+  public ngOnInit() {
   }
 
 }

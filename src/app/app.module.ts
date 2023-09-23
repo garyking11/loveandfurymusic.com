@@ -21,6 +21,7 @@ import {NgwWowModule} from 'ngx-wow';
 import {PressComponent} from './press/press.component';
 import {PromoComponent} from './promo/promo.component';
 import {SpecsComponent} from './specs/specs.component';
+import {ReplaceEmailAtPipe} from './pipes/replace-email-at.pipe';
 
 // import { MyParallaxDirectiveDirective } from './my-parallax-directive.directive';
 
@@ -44,6 +45,7 @@ import {SpecsComponent} from './specs/specs.component';
     ListenComponent,
     MerchComponent,
     GalleryComponent,
+    ReplaceEmailAtPipe,
     // MyParallaxDirectiveDirective,
   ],
   imports: [
